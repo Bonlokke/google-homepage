@@ -3,8 +3,8 @@ body {
 	font-family: arial, sans-serif;
 	background: #FFFFFF;
 	text-decoration: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -15,7 +15,7 @@ ul {
 li {
 	float: right;
 	display: block;
-	padding: 0 0 0 18;
+	padding: 0px 0px 0px 18px;
 }
 
 button {
@@ -23,26 +23,28 @@ button {
 	margin: auto;
 }
 
-img {
+/*img {
 	display: block;
-	margin: 0 auto;
-}
+	margin-left: auto;
+	margin-right: auto;
+} */
 
 #box {
-	margin: 0 0 0 0 auto;
+	margin: 0px 0px 0px 0px auto;
 	position: relative;
 	align-items: center;
 	text-align: center;
+	vertical-align: middle;
 }
 
 #topbar {
 	height: 40px;
-	margin: 15px 25px 0 0;
+	margin: 15px 25px 0px 0px;
 }
 
 #login {
-	margin: 8 8 8 0;
-	padding: 6 8 6 8;
+	margin: 8px 8px 8px 0px;
+	padding: 6px 8px 6px 8px;
 	text: white;
 	background-color: #4791DA;
 	color: white;
@@ -51,9 +53,17 @@ img {
 }
 
 #app {
-	padding-top: 12;
+	padding-top: 12px;
 }
 
+#middlepart {
+	background-image: url(./Images/google2.png);
+	background-repeat: no-repeat;
+	background-size: 269px 95px;
+	background-position: center;
+	margin-top: 100px;
+	padding-bottom: 200px;
+}
 /*#middlepart {
 	text-align: center;
 	margin-left: auto;
@@ -61,29 +71,39 @@ img {
 	width: auto;
 }*/
 
-#logo {
+/*#logo {
 	width: 269px;
 	height: 207px;
-	padding: 15;
-	margin-left: 350;
+	padding: 15px;
+	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 input {
 	margin-left: auto;
 	margin-right: auto;
-	height: 30px;
-	width: 40em;
+	height: 25px;
+	margin-bottom: 15px;
+	width: 50%;
+	min-width: 484px;
+	max-width: 568px;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
 }
 
 #luck {
 	margin: auto;
 	border-color: #f1f1f1;
-	border: 1px solid #C1C1C1;
-	padding: 4 4 4 4;
-	margin-left: 8px;
+	border: 1px solid #dcdcdc;
+	padding: 0px 8px;
+	margin: 0px 8px;
 	border-radius: 2px;
 	background-color: #ffffff;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 27px;
+	height: 29px;
+	text-align: center;
 }
 
 #bottombar {
